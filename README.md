@@ -1,130 +1,75 @@
-# MDIR
+# MDIR - Advanced Directory & Endpoint Discovery Tool
 
 <p align="center">
   <img src="https://github.com/MAHABUB122003/MDIR/blob/main/assets/MDIR%20(2).png" alt="MDIR Banner" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue">
-  <img src="https://img.shields.io/badge/Platform-Kali%20Linux-red">
-  <img src="https://img.shields.io/badge/Version-10.0-success">
-  <img src="https://img.shields.io/badge/License-MIT-green">
+  <b>Fast • Asynchronous • Powerful Web Directory & Endpoint Enumeration Tool for Kali Linux</b>
 </p>
 
-MDIR is a high-performance **directory and endpoint discovery tool for Kali Linux**, built for penetration testers, bug bounty hunters, and security researchers. It performs fast asynchronous scanning to discover hidden directories, API endpoints, admin panels, and sensitive files while generating professional reports.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python">
+  <img src="https://img.shields.io/badge/Platform-Kali%20Linux-red?logo=kalilinux">
+  <img src="https://img.shields.io/badge/Version-1.0.0-success">
+  <img src="https://img.shields.io/badge/License-MIT-green">
+  <img src="https://img.shields.io/github/stars/MAHABUB122003/MDIR?style=social">
+</p>
 
 ---
 
-## Features
+## Overview
 
-- Fast Asynchronous Directory Enumeration
-- Hidden Endpoint Discovery
-- API Enumeration
-- Admin Panel Discovery
-- Sensitive File Detection
-- HTTP Status Analysis (200, 301, 302, 401, 403)
-- Custom Wordlist Support
-- Multi-threaded Scanning
-- HTML, JSON & TXT Reports
-- Designed for Kali Linux
-- Bug Bounty Friendly
+**MDIR (Mahabub Directory Intelligence Recon)** is an advanced asynchronous directory and endpoint discovery tool designed for penetration testers, bug bounty hunters, and cybersecurity researchers.
+
+MDIR helps identify hidden directories, sensitive files, administrative panels, API endpoints, and exposed resources by performing high-speed HTTP enumeration with customizable scanning options.
+
+Built with Python's asynchronous architecture, MDIR provides fast scanning performance while generating professional security reports.
 
 ---
 
-## Requirements
+# Features
 
-- Kali Linux
-- Python 3.10+
-- aiohttp
-- uvloop (optional)
+### 🚀 Performance
+- High-speed asynchronous scanning
+- Multi-threaded endpoint discovery
+- Optimized HTTP request handling
+- Large wordlist support
+
+### 🔍 Discovery Capabilities
+- Directory enumeration
+- Hidden endpoint detection
+- API endpoint discovery
+- Admin panel detection
+- Sensitive file discovery
+- Backup file detection
+
+### 📊 Response Analysis
+- HTTP status code filtering:
+  - `200` OK
+  - `301` Redirect
+  - `302` Redirect
+  - `401` Unauthorized
+  - `403` Forbidden
+
+### 📄 Reporting
+Generate detailed reports in:
+
+- HTML
+- JSON
+- TXT
+
+### ⚡ Security Research Features
+- Custom wordlist support
+- Bug bounty workflow friendly
+- Kali Linux optimized
+- Lightweight CLI interface
 
 ---
 
-## Installation
+# Installation
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/MAHABUB122003/MDIR.git
-
-cd MDIR
-
-pip3 install -r requirements.txt
-```
-
-or
-
-```bash
-pip3 install aiohttp uvloop
-```
-
----
-
-## Usage
-
-Basic Scan
-
-```bash
-python3 mdir.py -u https://example.com
-```
-
-Aggressive Scan
-
-```bash
-python3 mdir.py -u https://example.com -a
-```
-
-API Discovery
-
-```bash
-python3 mdir.py -u https://example.com -A
-```
-
-Sensitive Scan
-
-```bash
-python3 mdir.py -u https://example.com -S
-```
-
-Custom Wordlist
-
-```bash
-python3 mdir.py -u https://example.com -w /usr/share/wordlists/dirb/common.txt
-```
-
-Save HTML Report
-
-```bash
-python3 mdir.py -u https://example.com -o report.html
-```
-
----
-
-## Screenshot
-
-<p align="center">
-<img src="assets/dashboard.png" width="100%">
-</p>
-
----
-
-## Technologies
-
-- Python
-- AsyncIO
-- AIOHTTP
-- uvloop
-- HTML
-- JSON
-
----
-
-## Author
-
-**MD MAHABUBUR RAHMAN**
-
-GitHub: https://github.com/MAHABUB122003
-
----
-
-## Disclaimer
-
-This tool is intended only for authorized penetration testing, bug bounty programs, and security research. Always obtain permission before testing any target.
