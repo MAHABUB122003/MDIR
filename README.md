@@ -1,7 +1,7 @@
 # MDIR
 
 <p align="center">
-  <img src="assets/mdir-banner.png" alt="MDIR Banner" width="100%">
+  <img src="https://github.com/MAHABUB122003/MDIR/blob/main/assets/MDIR%20(2).png" alt="MDIR Banner" width="100%">
 </p>
 
 <p align="center">
